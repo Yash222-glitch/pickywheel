@@ -70,7 +70,31 @@
   }
 }
 
-.right {
-  width: 30%;
-  height: 100vh;
+@media (max-width: 768px) {
+  .btn {
+    height: 10vh;
+  }
+
+  .bench {
+    position: absolute;
+    top: 54%;
+    left: 17%;
+  }
+
+  .logo {
+    height: 10vh;
+  }
 }
+
+@media (max-width: 360px) {
+  .bench {
+    position: absolute;
+    top: 54%;
+    left: 17%;
+    height: 5vh;
+  }
+
+  .rock {
+    height: 5vh;
+  }
+} ;
